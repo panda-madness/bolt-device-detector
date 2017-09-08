@@ -1,10 +1,14 @@
-Bolt Extension Starter
+Bolt Device Detector
 ======================
 
-A starter skeleton for a Bolt v3.x Extension
+This extension is a wrapper around the [MobileDetect](https://github.com/serbanghita/Mobile-Detect) library.
 
-To get going run the following command, replacing the last argument with the name of your extension:
+##Functions
 
-`composer create-project --no-install 'bolt/bolt-extension-starter:^3.0' <newextname>`  
+`isMobile()` - returns true if the client's device is a phone or a tablet.
 
-For more information, see this page in the Bolt documentation: https://docs.bolt.cm/extensions/building-starter/about
+`isMobileOnly()` - returns true if the client's device is a phone only.
+
+`isTablet()` - returns true if the client's device is a tablet only.
+
+`is(key)` - matches the given key to a device type. For examples see [here](https://github.com/serbanghita/Mobile-Detect/wiki/Code-examples)
