@@ -23,12 +23,12 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Bolt\\Extension\\PandaMadness\\ShoppingCart\\": "src"
+            "Bolt\\Extension\\PandaMadness\\DeviceDetector\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Bolt\\Extension\\PandaMadness\\ShoppingCart\\Tests\\": "tests",
+            "Bolt\\Extension\\PandaMadness\\DeviceDetector\\Tests\\": "tests",
             "Bolt\\Tests\\": "vendor/bolt/bolt/tests/phpunit/unit/"
         }
     },
