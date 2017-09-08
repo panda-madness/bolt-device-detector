@@ -2,7 +2,7 @@
     "name": "pandamadness/devicedetector",
     "description": "Twig functions for more advanced device detection",
     "type": "bolt-extension",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "keywords": [
     ],
     "require": {
