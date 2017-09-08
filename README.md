@@ -3,7 +3,7 @@ Bolt Device Detector
 
 This extension is a wrapper around the [MobileDetect](https://github.com/serbanghita/Mobile-Detect) library.
 
-##Functions
+## Functions
 
 `isMobile()` - returns true if the client's device is a phone or a tablet.
 
